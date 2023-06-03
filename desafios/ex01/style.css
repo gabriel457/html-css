@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(to bottom, #172026, #5FCDD9);
+}
+div{
+    margin: auto;
+    border-radius: 20px;
+}

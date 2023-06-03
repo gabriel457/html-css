@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+    background: gray;
+}
+
+div {
+    background-image: linear-gradient(to left, #0C52A8, #3D94FF);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 2px -7px 0px #14F2FF;
+}
+
+#principal {
+    color: #00ddcb;
+}
+
+h2 {
+    color: rgb(3, 77, 77);
+}
+
+a {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a::before {
+    content: ' → ';
+}
+
+a::after {
+    content: ' ← ';
+}
+
+p > a:hover {
+    color: #00ddcb;
+}
+
+p > a:visited {
+    color: rgb(131, 255, 127);
+}
+
+p > a:active {
+    color: black;
+}
