@@ -24,6 +24,7 @@ header h1 {
     font-family: var(--font2);
     color: white;
     text-align: center;
+    font-size: 3em;
 }
 
 header p {
@@ -38,4 +39,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+aside > p {
+    font-family: var(--font3);
+    text-align: justify;
+    text-indent: 30px;
+}
+
+#primeiro {
+    margin-top: 60px;
 }
